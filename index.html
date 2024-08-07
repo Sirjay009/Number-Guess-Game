@@ -16,26 +16,26 @@
 </head>
 
 <body>
-    <header>
-        <h1>Number Guess Game</h1>
-    </header>
-
-    <section class="game-area">
-        <h3>Guess a number between 1 to 10</h3>
-        <div class="controls-area">
-            <input type="text" id="number">
-            <button id="guessBtn">Guess</button>
+    <section class="container">
+        <h1 class="heading">Number Guess Game</h1>
+        <div class="game-area">
+            <h3>Guess a number between 1 to 10</h3>
+            <div class="controls-area">
+                <input type="text" id="number">
+                <button id="guessBtn">Guess</button>
+            </div>
         </div>
-        <div id="messages"></div>
+        <div class="messages-area" id="messages"></div>
+        <div class="score-area">
+            <p class="scores">Correct Answers:<span id="score">0</span></p>
+            <p class="scores">Incorrect Answers:<span id="score">0</span></p>
+        </div>
+        <div class="rules-area">
+            <h3>Rules</h3>
+            <p>Three chances to guess the correct number!</p>
+        </div>
     </section>
-    <section class="score-area">
-        <p class="scores">Correct Answers:<span id="score">0</span></p>
-        <p class="scores">Incorrect Answers:<span id="score">0</span></p>
-    </section>
-    <footer>
-        <h3>Rules</h3>
-        <p>Three chances to guess the correct number!</p>
-    </footer>
+
     <script src="assets/js/script.js"></script>
 
 </body>

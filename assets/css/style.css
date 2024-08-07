@@ -2,13 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*General styling*/
-html {
-    min-height: 100%;
-    position: relative;
-}
-
 body {
-    margin: o;
+    margin: 0;
+    height: 100vh;
     font-family: "Raleway", sans-serif;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 30px;
+    
+}
+
