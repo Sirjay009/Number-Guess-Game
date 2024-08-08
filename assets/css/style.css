@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-.container {
+.quiz-container {
     display: flex;
     justify-content: center;
     align-items: center;

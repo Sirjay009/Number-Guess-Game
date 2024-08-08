@@ -16,23 +16,18 @@
 </head>
 
 <body>
-    <section class="container">
+    <div class="quiz-container">
         <h1 class="heading">Guess the footballer</h1>
         <div class="game-area">
-
-            <h3>Who's this?</h3>
+            <h3 id="question">Who's this?</h3>
             <img id="randImg" src="" alt="Random image" />
-            <p>Make a choice</p>
-            <button data-choice="0" class="control">SELECT ANSWER</button>
-            <br>
-            <button data-choice="1" class="control">SELECT ANSWER</button>
-            <br>
-            <button data-choice="2" class="control">SELECT ANSWER</button>
-            <br>
-            <button data-choice="3" class="control">SELECT ANSWER</button>
-            <br>
         </div>
         <div class="messages-area" id="messages"></div>
+        <div class="choice-container">
+            <button data-choice="0" class="contr0l"></button>
+            <button data-choice="1" class="contr0l"></button>
+            <button data-choice="2" class="contr0l"></button>
+        </div>
         <div>
             <p class="scores">Correct Answers:<span id="score">0</span></p>
             <p class="scores">Incorrect Answers:<span id="score">0</span></p>
@@ -40,11 +35,7 @@
         <div class="reset">
             <button data-choice="5" class="reset-btn">Reset</button>
         </div>
-        <div class="rules-area">
-            <h3>Rules</h3>
-            <p>You have only chance to guess player right!</p>
-        </div>
-    </section>
+    </div>
 
     <script src="assets/js/script.js"></script>
 
