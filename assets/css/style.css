@@ -1,10 +1,16 @@
 /*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+html {
+    max-height: none;
+    position: relative;
+}
+
 /*General styling*/
 body {
-    margin: 0;
-    height: 100vh;
+    margin: auto;
+    line-height: 0.5;
     font-family: "Raleway", sans-serif;
     text-align: center;
 }
@@ -15,7 +21,6 @@ body {
     align-items: center;
     flex-direction: column;
     width: 60%;
-    height: 70%;
     margin-left: auto;
     margin-right: auto;
     background-color: aqua;
@@ -25,8 +30,16 @@ body {
 }
 
 img {
-    width: 100%;
-    height: 60%;
+    width: 60%;
+    height: 15%;
   }
 
-  
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+.reset-button {
+    padding: 25px; 
+}
+

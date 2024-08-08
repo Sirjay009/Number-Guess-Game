@@ -35,3 +35,5 @@ document.addEventListener('DOMContentLoaded', _ => {
     document.getElementById('randImg').src = images[randImageIndex];
   });
 
+  
+
