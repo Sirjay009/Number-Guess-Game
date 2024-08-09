@@ -63,6 +63,36 @@ document.addEventListener("DOMContentLoaded", _ => {
   document.getElementById("randImg").src = images[randImageIndex];
 });
 
+images[0]="Toni Kross";
+images[1]="Florian Wirtz";
+images[2]="Vigil van Dijk";
+images[3]="Rodri";
+images[4]="Jude Bellingham";
+images[5]="Kylian Mbappe";
+images[6]="Harry Kane";
+images[7]="Erling Haaland";
+images[8]="Lionel Messi";
+images[9]="Vinicius Jr";
+images[10]="Kevin De Bruyne";
+images[11]="Bukayo Saka";
+images[12]="Phil Foden";
+images[13]="Alisson Becker";
+images[14]="Declan Rice";
+images[15]="Mohamed Sala";
+images[16]="Jamal Musiala";
+images[17]="Bernardo Silvia";
+images[18]="Lamine Yamal";
+images[19]="Martin Odegaard";
+images[20]="Antonio Rudiger";
+images[21]="Antoine Griezmann";
+images[22]="Victor Osimhen";
+images[23]="Sadio Mane";
+images[24]="Vincent Aboubakar";
+images[25]="Andre Onana";
+images[26]="Cristiano Ronaldo";
+images[27]="Luka Modric";
+images[28]="Son Heung-min";
+images[29]="Rober Lewandowski";
 
 
 
