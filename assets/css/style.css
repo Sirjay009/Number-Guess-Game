@@ -36,7 +36,8 @@ img {
   }
 
 #answer-box {
-    padding: 20px
+    margin: 20px;
+    padding: 5px;
 }
 
 .scores {
