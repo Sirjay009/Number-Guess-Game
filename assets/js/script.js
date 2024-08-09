@@ -1,3 +1,13 @@
+const quizContainer = document.getElementsByClassName("quiz-container");
+const gameArea = document.getElementsByClassName("game-area");
+const imageContainer = document.getElementsByClassName("image-container");
+const answerContainer = document.getElementsByClassName("answer-container");
+const answerBox = document.getElementById("answer-box");
+const messageArea = document.getElementsByClassName("messages-area");
+const gameScores = document.getElementsByClassName("scores");
+const resetArea = document.getElementsByClassName("reset-area");
+const resetBtn = document.getElementsByClassName("reset-btn");
+
 document.addEventListener("DOMContentLoaded", function() {
   let buttons = document.getElementsByTagName("button");
 
