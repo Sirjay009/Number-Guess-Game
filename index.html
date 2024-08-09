@@ -21,14 +21,11 @@
         <div class="game-area">
             <h3 id="question">Who's this?</h3>
             <div class="image-container">
-                <img id="randImg" src="" alt="Random image"/>
+                <img id="randImg" src="" alt="Random image" />
             </div>
-            <div class="choice-container">
-                <button data-choice="0" class="contr0l"></button>
-                <br>
-                <button data-choice="1" class="contr0l"></button>
-                <br>
-                <button data-choice="2" class="contr0l"></button>
+            <div class="answer-container">
+                <p class="answer-message">Enter Answer:</p>
+                <input id="answer-box" type="text">
             </div>
         <div class="messages-area" id="messages"></div>
         <div>
@@ -36,7 +33,7 @@
             <p class="scores">Incorrect Answers:<span id="score">0</span></p>
         </div>
         <div class="reset">
-            <button data-choice="5" class="reset-btn">Reset</button>
+            <button data-choice="reset" class="reset-btn">Reset</button>
         </div>
     </div>
 

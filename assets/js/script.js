@@ -1,3 +1,17 @@
+document.addEventListener("DOMContentLoaded", function() {
+  let buttons = document.getElementsByTagName("button");
+
+  for (let button of buttons) {
+    button.addEventListener("click", function {
+      if(this.getAttribute("data-choice") === "reset"){
+        checkAnswer();
+      } else {
+        let playGame = this.getAttribute("data-choice");
+      }
+    })
+  }
+})
+
 const images = [
 
   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/CSKA-RM18_%287%29_%28cropped%29.jpg/330px-CSKA-RM18_%287%29_%28cropped%29.jpg",
@@ -38,6 +52,8 @@ document.addEventListener("DOMContentLoaded", _ => {
 });
 
 
+
+
   runGame() {
 
   }
@@ -62,10 +78,14 @@ document.addEventListener("DOMContentLoaded", _ => {
 
   }
 
-  displayChoiceContainerImages () {
+  displayChoiceContainerImages() {
 
 
   }
 
+  resetGame() {
+
+
+  }
   
 
