@@ -66,5 +66,34 @@ document.addEventListener('DOMContentLoaded', _ => {
   images[28]="Son Heung-min";
   images[29]="Rober Lewandowski";
 
+  runGame() {
+
+  }
+
+  calculateCorrectAnswer() {
+
+
+  }
+
+  checkAnswer() {
+
+
+  }
+
+  incrementScore() {
+
+
+  }
+
+  incrementWrongAnswer() {
+
+
+  }
+
+  displayChoiceContainerImages () {
+
+    
+  }
+
   
 
